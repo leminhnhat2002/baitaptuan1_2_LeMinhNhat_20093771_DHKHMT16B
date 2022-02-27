@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+        * {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .colorfull {
+            text-shadow: 1px 4px 1px #33cc66, 0px -4px 2px #ff3333;
+        }
+
+        .doublefont {
+            text-shadow: 0px -10px 1px #ff0099;
+        }
+
+        .glossystyle {
+            background: -webkit-linear-gradient(#eeeeee, #ff6633);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .inseteffect {
+            color: #9933cc;
+            text-shadow: -1px 2px 4px rgb(221, 221, 221);
+        }
+
+        .neonglow {
+            color: #3333ff;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        .gangstyle {
+            background: url(/CSS/4588512.png) no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+        }
+
+        .tagp {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #3366ff, 0 0 40px #3366ff, 0 0 50px #3366ff, 0 0 60px #3366ff, 0 0 70px #3366ff;
+            }
+
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #0066ff, 0 0 40px #0066ff, 0 0 50px #0066ff, 0 0 60px #0066ff, 0 0 70px #0066ff, 0 0 80px #0066ff;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div style="height: auto; width: 50%; background-color: #ffd47c; padding: 1px 30px 1px 30px; margin: 0 auto;">
+            <h1 style="text-align: center;">Survey Form</h1>
+            <p>If you are interested in purchasing one or more of our product, before ordering please complete some or
+                all
+                of the following survey for our marketing department. Answering any question is optional, and all
+                information will be kept strictly confidential. Thank you very much for your time! </p>
+            <p>1. What is your name? <br>
+                <input type="text">
+            </p>
+            <p>2. What is your date of birth? <br>
+                Month: <select name="" id="">
+                    <option value="">January &emsp;</option>
+                </select>
+                Date: <select name="" id="">
+                    <option value="">1 &emsp;</option>
+                </select>
+                Year: <input type="text" value="19"></p>
+            <p>3. What is your mailing address (if you would like to have a hard copy of our catalog sent to you)? <br>
+                <textarea name="" id="" cols="50" rows="5">
+Number/P.O. Box/Route:
+Street/Avenue/Road:
+City: 
+State/Zip:</textarea>
+            </p>
+            <p>4. What is your email address? <br>
+                <input type="text">
+            </p>
+            <p>5. Have you viewed our online product catalog? <br>
+                <input type="radio" name="" id="">Yes &nbsp;
+                <input type="radio" name="" id="">No
+            </p>
+            <p>6. If so what product(s), beside the one you are ordering, might you be interested in purchasing in the
+                future? (Check all that apply) <br>
+                <input type="checkbox" name="" id="">VCR <br>
+                <input type="checkbox" name="" id="">Big Screen TV <br>
+                <input type="checkbox" name="" id="">Audio Equipment <br>
+                <input type="checkbox" name="" id="">Video Equipment <br>
+                <input type="checkbox" name="" id="">Camera Equipment <br>
+                <input type="checkbox" name="" id="">Other &nbsp; <input type="text" value="Please List:">
+            </p>
+            <p>7. Do you have any questions, comments or suggestions before proceeding to the Order Form? <br>
+                <textarea name="" id="" cols="40" rows="5">
+        Your Input:
+            </textarea>
+            </p>
+            <p style="text-align: center;">
+                <input type="submit" value="Send Form"> &emsp; &emsp; <input type="submit" value="Clear Form">
+            </p>
+        </div>
+    </form>
+    <form action="">
+        <div>
+            <p>Browser: <select name="" id="" style="width: 10%;"> </select></p>
+            <p>Username: <input type="text" name="" id=""></p>
+            <p>Encryption: <select name="" id="" style="width: 10%;">
+                    <option value="">2048(High Grade)</option>
+                </select></p>
+            <p>
+                0 <input type="range" name="" id="" min="1" max="100" step="1" value="50"> 100
+                <br>
+                <input type="text" value="50">
+            </p>
+            <p>Birthday: <input type="text" value="mm//dd/yyyy"></p>
+            <p>Select your favorite color: <input type="color" name="" id=""></p>
+            <p>Birthday (month and year): <input type="text" value="---------- ----"></p>
+            <p>Select a week: <input type="text" value="week --, ----"></p>
+            <p>Select a time: <input type="text" value="--:-- --"></p>
+            <p>Birthday (date and time): <input type="text"></p>
+            <p>E-mail: <input type="text"></p>
+            <p>Search Google: <input type="text"></p>
+            <p>Telephone: <input type="text"></p>
+            <p>Add your homepage: <input type="text"></p>
+            <p><input type="submit" value="Submit"></p>
+        </div>
+    </form>
+    <div style="width:40%; height: auto">
+        <p style="text-indent:1cm; color:red;text-align:justify;">Thiết lập chế độ thụt đầu dòng cho 1 đoạn văn bản.
+            Thuộc tính này có thể gán giá trị là tỉ lệ % hoặc một số
+            cụ thể. Thiết lập chế độ độ thụt dòng cho 1 đoạn văn bản. Thuộc tính này có thể gán giá trị là % hoặc một số
+            cụ thể.</p>
+        <p style="text-align: right; color: blue">Thuộc tính text-align: right dùng để canh phải lề của đoạn văn bản</p>
+        <p style="text-align: center; color: green">Thuộc tính text-align: center dùng để canh giữa lề của đoạn văn bản
+        </p>
+        <p style="text-align: left; color: brown">Thuộc tính text-align: left dùng để canh trái lề của đoạn văn bản</p>
+        <p style="text-decoration: underline; color: pink">Thuộc tính text-decoration: underline; sẽ gạch dưới đoạn văn
+            bản</p>
+        <p style="text-decoration: line-through; color: purple">Thuộc tính text-decoration: line through; sẽ gạch ngang
+            đoạn văn bản</p>
+        <p style="text-decoration: overline; color: red">Thuộc tính text-decoration: overline; sẽ gạch trên đoạn văn bản
+        </p>
+        <p style="text-decoration: blink; text-align: justify; color: blue; text-shadow: 4px 4px 8px blue;">Thuộc tính
+            text-decoration: blink; sẽ tạo hiệu ứng blink cho đoạn văn bản +
+            thuộc tính text shadow: 4px 4px
+            8px blue; tạo bóng cho chữ</p>
+    </div>
+    <div style="
+    margin: 0 auto;
+    width: 600px;
+    box-shadow: 1px 2px 8px #333;
+    padding-top: 20px;
+  ">
+        <div class="tagp" style="
+      width: 580px;
+      height: 200px;
+      border: 1px solid #333;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 0 auto;
+    ">
+            <p class="colorfull">Colorfull Style</p>
+
+            <p class="inseteffect">Inset Effect</p>
+
+            <p class="doublefont">Double Font</p>
+            <p class="glossystyle">Glossy Style</p>
+            <p class="gangstyle">Gang Style</p>
+            <p class="neonglow">Neon Glow</p>
+        </div>
+        <div style="
+      width: 580px;
+      height: 80px;
+      border: 1px solid #333; 
+      margin: 0 auto; 
+      background-color: #9933cc;
+    ">
+            <p style="color: #fff; font-size: 36px; text-align: center;">COLOR CSS TEXT EFFECT</p>
+        </div>
+    </div>
+</body>
+
+</html>
